@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Vue.Js设计与实现笔记",
   description: "学习与思考",
   base: "VueJs",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "https://vuejs.org/images/logo.png",
